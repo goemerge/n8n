@@ -1,44 +1,44 @@
 @use 'sass:math';
 
 @mixin theme {
-	--color-primary-h: 6.9;
-	--color-primary-s: 100%;
-	--color-primary-l: 67.6%;
+	--color-primary-h: 142;
+	--color-primary-s: 64%;
+	--color-primary-l: 42%;
 	--color-primary: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),
 		var(--color-primary-l)
 	);
 
-	--color-primary-tint-1-l: 88%;
+	--color-primary-tint-1-l: 51.66%;
 	--color-primary-tint-1: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),
 		var(--color-primary-tint-1-l)
 	);
 
-	--color-primary-tint-2-l: 94.5%;
+	--color-primary-tint-2-l: 63.55%;
 	--color-primary-tint-2: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),
 		var(--color-primary-tint-2-l)
 	);
 
-	--color-primary-tint-3-l: 96.9%;
+	--color-primary-tint-3-l: 78.16%;
 	--color-primary-tint-3: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),
 		var(--color-primary-tint-3-l)
 	);
 
-	--color-primary-shade-1-l: 57.6%;
+	--color-primary-shade-1-l: 31.5%;
 	--color-primary-shade-1: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),
 		var(--color-primary-shade-1-l)
 	);
 
-	--color-primary-shade-2-l: 23%;
+	--color-primary-shade-2-l: 23.625%;
 	--color-primary-shade-2: hsl(
 		var(--color-primary-h),
 		var(--color-primary-s),

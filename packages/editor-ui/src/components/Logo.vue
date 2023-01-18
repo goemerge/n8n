@@ -2,7 +2,7 @@
 	<img
 		:src="basePath + 'n8n-logo-expanded.svg'"
 		:class="$style.img"
-		alt="n8n.io"
+		alt="GrowthCloud.com"
 	/>
 </template>
 

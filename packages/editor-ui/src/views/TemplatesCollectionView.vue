@@ -132,10 +132,10 @@ export default mixins(workflowHelpers).extend({
 	watch: {
 		collection(collection: ITemplatesCollection) {
 			if (collection) {
-				setPageTitle(`n8n - Template collection: ${collection.name}`);
+				setPageTitle(`GC Automation - Template collection: ${collection.name}`);
 			}
 			else {
-				setPageTitle(`n8n - Templates`);
+				setPageTitle(`GC Automation - Templates`);
 			}
 		},
 	},

@@ -443,7 +443,7 @@ class App {
 					) {
 						return next();
 					}
-					const realm = 'n8n - Editor UI';
+					const realm = 'GC Automation - Editor UI';
 					const basicAuthData = basicAuth(req);
 
 					if (basicAuthData === undefined) {

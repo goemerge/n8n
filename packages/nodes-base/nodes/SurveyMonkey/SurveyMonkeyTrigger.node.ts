@@ -423,7 +423,7 @@ export class SurveyMonkeyTrigger implements INodeType {
 				}
 
 				const body: IDataObject = {
-					name: `n8n - Webhook [${event}]`,
+					name: `GC Automation - Webhook [${event}]`,
 					object_type: objectType,
 					object_ids: ids,
 					subscription_url: webhookUrl,

@@ -352,7 +352,7 @@ export default mixins(genericHelpers, debounceHelper).extend({
 		next();
 	},
 	async mounted() {
-		setPageTitle('n8n - Templates');
+		setPageTitle('GC Automation - Templates');
 		this.loadCategories();
 		this.loadWorkflowsAndCollections(true);
 		this.$store.dispatch('users/showPersonalizationSurvey');

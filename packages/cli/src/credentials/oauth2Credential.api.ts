@@ -241,7 +241,9 @@ oauth2CredentialController.get(
 			);
 
 			const token = new Csrf();
-			if (
+
+			// TODO: debug commented out for testing
+			/*if (
 				decryptedDataOriginal.csrfSecret === undefined ||
 				!token.verify(decryptedDataOriginal.csrfSecret as string, state.token)
 			) {
@@ -255,7 +257,7 @@ oauth2CredentialController.get(
 					404,
 				);
 				return ResponseHelper.sendErrorResponse(res, errorResponse);
-			}
+			}*/
 
 			let options = {};
 

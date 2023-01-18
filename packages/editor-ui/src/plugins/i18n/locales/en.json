@@ -1,4 +1,7 @@
 {
+	"_brand.name": "GrowthCloud Automation",
+	"about.aboutN8n": "About @:_brand.name",
+	"about.n8nVersion": "@:_brand.name Version",
 	"_reusableBaseText.cancel": "Cancel",
 	"_reusableBaseText.codeNodeEditor.linter.useJson": "Access the properties of an item under `.json`, e.g. `item.json`",
 	"_reusableBaseText.codeNodeEditor.completer.all": "Get all items",
